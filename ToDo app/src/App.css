@@ -1,0 +1,127 @@
+
+body {
+  background-color: #fff5ef !important;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.todo-page {
+  min-height: 100vh;
+  background-color: #fff5ef !important;
+  display: flex;
+  justify-content: center;
+  padding: 55px 15px;
+}
+
+.todo-card {
+  background-color: #fffdf9 !important;
+  width: 100%;
+  max-width: 580px;
+  padding: 30px;
+  border: 2px solid #ffe4d6;
+  border-radius: 25px;
+  box-shadow: 0 12px 35px rgba(220, 151, 125, 0.15);
+  height: fit-content;
+}
+
+.todo-title {
+  text-align: center;
+  color: #e77d83 !important;
+  font-weight: 800;
+}
+
+.todo-subtitle {
+  text-align: center;
+  color: #a99b91 !important;
+  margin-bottom: 25px;
+}
+
+.task-item {
+  background-color: #fff0ed !important;
+  border: 1px solid #ffded7 !important;
+  border-radius: 15px !important;
+  padding: 14px;
+  margin-top: 12px;
+}
+
+.task-item:nth-child(even) {
+  background-color: #fff9df !important;
+  border-color: #f8edc0 !important;
+}
+
+/* Task text */
+.task-text {
+  font-size: 17px;
+  margin: 0;
+  color: #493832 !important;
+  font-weight: 600;
+}
+
+/* Completed task text */
+.task-text.completed {
+  text-decoration: line-through;
+  color: #897b75 !important;
+}
+
+.btn-done {
+  background-color: #ccebdc !important;
+  color: #397b5b !important;
+  border: none !important;
+  border-radius: 9px !important;
+}
+
+.btn-done:hover {
+  background-color: #aee0c7 !important;
+}
+
+.btn-delete {
+  background-color: #ffd5dc !important;
+  color: #b94e67 !important;
+  border: none !important;
+  border-radius: 9px !important;
+}
+
+.btn-delete:hover {
+  background-color: #ffb9c7 !important;
+}
+
+@media (max-width: 576px) {
+  .todo-card {
+    padding: 20px 14px;
+  }
+}
+
+
+/* Footer statistics boxes */
+
+.todo-card .card {
+  border: none !important;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.todo-card .bg-warning {
+  background-color: #ffe2b8 !important;
+  color: #98652e !important;
+}
+
+.todo-card .bg-light {
+  background-color: #d9eee4 !important;
+  color: #397b5b !important;
+}
+
+
+
+/* Add Task button */
+
+.todo-card button.btn-add,
+.todo-card .btn-add {
+  background: #f28f9a !important;
+  background-color: #f28f9a !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.todo-card button.btn-add:hover {
+  background: #df7180 !important;
+  color: #ffffff !important;
+}
