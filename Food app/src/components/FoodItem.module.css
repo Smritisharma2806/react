@@ -1,0 +1,53 @@
+.foodCard {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.foodCard:hover {
+  transform: translateY(-5px);
+}
+
+.foodImage {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.foodInfo {
+  padding: 15px;
+}
+
+.foodInfo h3 {
+  font-size: 17px;
+  color: #263b32;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.recipeButton {
+  background-color: #29bb89;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.recipeButton:hover {
+  background-color: #219a70;
+}
+
+.buttonContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}

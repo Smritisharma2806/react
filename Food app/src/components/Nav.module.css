@@ -1,0 +1,22 @@
+
+.navbar {
+  background-color: #183b32;
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 14px;
+  color: #d5e5dc;
+  margin: 0;
+}
